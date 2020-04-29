@@ -1,12 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>responsetxt</title>
 </head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        font: 15px/2 Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    /*global values*/
+
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    button {
+        border: none;
+        background-color: #e8491d;
+        color: antiquewhite;
+        height: 30px;
+        font-size: 15px;
+        font-style: bold;
+        padding: 0 10px 0 11px;
+    }
+
+    /* header */
+
+    header {
+        background-color: #35424a;
+        color: #f4f4f4;
+        padding-top: 15px;
+        min-height: 70px;
+        border-bottom: #e8491d 3px solid;
+    }
+
+    header a {
+        color: antiquewhite;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    header li {
+        float: left;
+        display: inline;
+        padding: 0 10px 0 10px;
+    }
+
+    header #branding {
+        float: left;
+    }
+
+    header #branding h1 {
+        margin: 0;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 15px;
+    }
+
+    header .highlight,
+    header .current a {
+        color: #e8491d;
+        font-weight: bold;
+    }
+
+    header a:hover {
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+    /* showcase */
+
+    #showcase {
+        min-height: 400px;
+        background: url("../images/showcase.jpg") no-repeat 0 -400px;
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    #showcase h2 {
+        margin: 0;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
+
+    /* newsletter */
+
+    #newsletter {
+        background: #35424a;
+        border-top: #e8491d 3px solid;
+        padding-bottom: 10px;
+    }
+
+    #newsletter h1 {
+        color: antiquewhite;
+        float: left;
+        font-size: 20px;
+    }
+
+    #newsletter form {
+        float: right;
+        margin-top: 25px;
+    }
+
+    #newsletter input[type="email"] {
+        padding: 4px;
+        height: 28px;
+        width: 250px;
+    }
+
+    /* boxes */
+
+    #boxes {
+        border-top: #e8491d 3px solid;
+        padding: 10px;
+    }
+
+    #boxes .box {
+        float: left;
+        width: 30%;
+        text-align: center;
+    }
+
+    #boxes .box img {
+        height: 100px;
+    }
+
+    #footer {
+        padding: 20px;
+        margin-top: 20px;
+        color: antiquewhite;
+        background-color: #e8491d;
+        text-align: center;
+    }
+</style>
+
 <body>
     <header>
         <div class="container">
@@ -25,7 +174,7 @@
     <section id="showcase">
         <div class="container">
             <h2>Lorem ipsum dolor sit amet.</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio maxime 
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio maxime
                 accusamus amet! Repudiandae non officiis dolorum libero eligendi facere quibusdam sapiente.
                 Dolorem quas doloribus atque, quo nam fuga, earum eaque qui reprehenderit sequi quos aliquid
             </p>
@@ -62,7 +211,8 @@
         </div>
     </section>
     <section id="footer">
-        <p>first  page webdesign copyright &copy; 1998</p>
+        <p>first page webdesign copyright &copy; 1998</p>
     </section>
 </body>
+
 </html>
